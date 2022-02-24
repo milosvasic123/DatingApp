@@ -25,6 +25,7 @@ namespace Webb.Helpers
                 });
 
             CreateMap<Photo,PhotosForDetailedDto>();
+            CreateMap<UserForUpdateDto,User>();
         }
     }
 }
